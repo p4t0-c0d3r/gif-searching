@@ -1,5 +1,7 @@
 import React from 'react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { useFetchGifs } from '../hooks/useFetchGifs';
+
 
 /*
     Function Component
@@ -15,6 +17,7 @@ export const SearchForm = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        console.log("HandleSubmit");
     }
 
     const handleInputChange = (e)  => {

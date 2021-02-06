@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { SearchForm } from './components/SearchForm';
+import { GifSearching } from './GifSearching';
 
 import './styles/index.css';
 
 
 ReactDOM.render(
-    <SearchForm />,
+    <GifSearching />,
   document.getElementById('root')
 );

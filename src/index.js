@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { App } from './App';
+import { SearchForm } from './components/SearchForm';
 
 import './styles/index.css';
 
 
 ReactDOM.render(
-    <App />,
+    <SearchForm />,
   document.getElementById('root')
 );
